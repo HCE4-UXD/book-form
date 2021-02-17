@@ -15,13 +15,13 @@ form {
   background-color: rgba(0, 0, 0, 0.7);
   align-items: center;
   justify-content: center;
-  height: 400px;
-  width: 50vw;
+  height: 370px;
+  width: 45vw;
 }
 
 .firstname-lastname {
   display: flex;
-  width: 400px;
+  width: 500px;
   justify-content: space-between;
 }
 
@@ -32,12 +32,11 @@ form {
 }
 
 .email {
-  width: 400px;
-  margin-bottom: 30px;
+  width: 500px;
 }
 
 .name {
-  width: 185px;
+  width: 235px;
 }
 
 input {
@@ -48,7 +47,7 @@ input {
   border: none;
   font-size: 16px;
   padding: 10px;
-  // opacity: 80%;
+  opacity: 80%;
 }
 
 .btn {
@@ -63,11 +62,16 @@ input {
   cursor: pointer;
   padding: 10px 5px;
   margin: 10px 5px;
+  margin-bottom: 25px;
   font-size: 20px;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .btn:hover {
   background: rgba(0, 0, 0, 0);
   border: 2px solid;
+}
+
+.phone {
+  margin-bottom: 30px;
 }

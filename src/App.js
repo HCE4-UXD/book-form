@@ -52,6 +52,10 @@ export default class App extends Component {
           <label>Email</label>
           <input type="email" name="email" required />
         </div>
+        <div className="input email phone">
+          <label>Phone Number</label>
+          <input type="tel" name="phone" required />
+        </div>
         {status === "SUCCESS" ? (
           <p>Thanks!</p>
         ) : (
