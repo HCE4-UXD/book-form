@@ -15,7 +15,7 @@ form {
   background-color: rgba(0, 0, 0, 0.7);
   align-items: center;
   justify-content: center;
-  height: 370px;
+  height: 400px;
   width: 45vw;
 }
 
@@ -25,7 +25,7 @@ label {
 
 .firstname-lastname {
   display: flex;
-  width: 500px;
+  width: 85%;
   justify-content: space-between;
 }
 
@@ -36,11 +36,11 @@ label {
 }
 
 .email {
-  width: 500px;
+  width: 85%;
 }
 
 .name {
-  width: 235px;
+  width: 47%;
 }
 
 input {
