@@ -56,10 +56,28 @@ export default class App extends Component {
           <label>Phone Number</label>
           <input type="tel" name="phone" required />
         </div>
+        <div className="disclaimer">
+          <p>
+            The purposes of data protection laws, HCE 4. Located at 11 avenue
+            Rossellini, 69100 Villeurbanne, France, is the 'data controller' of
+            your information collected in connection with the HCE Services 4.
+          </p>
+          <p>
+            Your data is stored in the Wix data storage system and databases,
+            and in the general Wix application. Your data is kept on a secure
+            server protected by a firewall.
+          </p>
+          <p>
+            To protect your personal data, we take reasonable precautions and
+            follow industry best practices to ensure that it is not
+            inappropriately lost, misused, accessed, disclosed, altered or
+            destroyed.
+          </p>
+        </div>
         {status === "SUCCESS" ? (
-          <p>Thanks!</p>
+          <p>Thank you for your interest in our book! We will get in touch with you shortly.</p>
         ) : (
-          <button className="btn">Submit</button>
+          <button className="btn">Submit and recieve your FREE Book</button>
         )}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>
