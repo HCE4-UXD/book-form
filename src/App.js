@@ -53,7 +53,7 @@ export default class App extends Component {
           <input type="email" name="email" required />
         </div>
         <div className="input email phone">
-          <label>Phone Number</label>
+          <label>Phone Number (with area code/country code)</label>
           <input type="tel" name="phone" required />
         </div>
         <div className="disclaimer">
@@ -75,9 +75,12 @@ export default class App extends Component {
           </p>
         </div>
         {status === "SUCCESS" ? (
-          <p>Thank you for your interest in our book! We will get in touch with you shortly.</p>
+          <p>
+            Thank you for your interest in our book! We will get in touch with
+            you shortly.
+          </p>
         ) : (
-          <button className="btn">Submit and recieve your FREE Book</button>
+          <button className="btn">Submit</button>
         )}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>
